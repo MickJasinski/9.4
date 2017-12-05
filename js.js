@@ -1,7 +1,7 @@
-function drawTree(x) {
-    for (var i = 0; i < x; i++) {
+function drawTree(numberOfLines) {
+    for (var i = 0; i < numberOfLines; i++) {
         var star = "";
-        for (var j = 0; j < (x - i); j++) {
+        for (var j = 0; j < (numberOfLines - i); j++) {
         	star += " ";
         }
         for (var k = 0 ; k <= i * 2 ; k++) {
@@ -10,6 +10,3 @@ function drawTree(x) {
         console.log(star);
     }
 }
-console.log(drawTree(1));
-console.log(drawTree(2));
-console.log(drawTree(5));
