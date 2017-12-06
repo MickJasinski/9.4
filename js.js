@@ -11,4 +11,4 @@ function drawTree(numberOfLines) {
     }
 }
 
-drawTree(7)
+drawTree(7);
